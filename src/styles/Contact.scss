@@ -1,0 +1,24 @@
+$gray: #DEDEE0;
+$yellow: #ffd98e;
+$lightblue: #5fc5d1;
+
+.contact{
+ position: relative;
+ top:50px;
+
+}
+.phone{
+    letter-spacing: 0.06em;
+}
+
+
+@media (max-width: 767.98px) { 
+
+    .data{
+      font-size: 0.9em;
+    }
+
+    .contact{
+        top:0px;
+    }
+     }

@@ -1,0 +1,31 @@
+$black : #010101;
+$gray: #DEDEE0;
+$white: #FCFCFC;
+$green: #446B50;
+$lightgreen: #60AB9A;
+$melon: #FF9FB2;
+$red: #F17B77;
+$yellow: #ffd98e;
+$lightblue: #5fc5d1;
+
+
+.navi{
+    position: fixed;
+    width: 100%;
+    top:0;
+    padding:10px;
+    background-color: #fff;
+    box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
+    z-index:201 ;
+ 
+}
+
+.img-con{
+    position: relative;
+    top:200px;
+}
+
+.notfound-img{
+    width: 400px;
+
+}

@@ -1,0 +1,72 @@
+$gray: #DEDEE0;
+$yellow: #ffd98e;
+$lightblue: #5fc5d1;
+
+.skill-row, .skill-col{
+    margin-bottom: 30px;
+}
+
+
+
+.skill-div{
+    width: 50px;
+    height: 50px;
+    border-radius: 0.6em;
+    box-shadow: -4px 4px 5px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+
+.logo{
+    object-fit: cover ;
+    width: 100%;
+    height: 100%;
+}
+
+.skill-name{
+    font-size: 0.9em;
+    margin-bottom:3px;
+    display: none;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: $gray;
+    border-radius: 50%;
+    margin-right:5px;
+}
+
+
+.yes{
+    width: 15px;
+    height: 15px;
+    background-color: $yellow;
+    border-radius: 50%;
+    margin-right:5px;
+}
+
+
+
+#collapse, #hide{
+    display: none;
+}
+
+#more, #hide{
+    color: $lightblue;
+}
+
+.custom-control-input:checked~.custom-control-label::before{
+    border-color: $lightblue;
+    background-color:$lightblue;
+}
+
+
+@media (max-width: 575.98px) { 
+ .mobile{
+    margin-bottom: 0px;
+}
+ 
+    }
+
+
